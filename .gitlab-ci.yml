@@ -1,0 +1,23 @@
+image: node:lts
+
+variables:
+  npm_config_cache: "$CI_PROJECT_DIR/.npm"
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - ./.next/cache
+    - ./.techradar
+
+create-pages:
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - build
+  only:
+    - main
+  pages:
+    publish: build

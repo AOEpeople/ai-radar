@@ -1,0 +1,39 @@
+# About
+This is a repository content for our AI techradar.
+
+The Radar focuses around the Development of professional AI Agents, RAG Systems and LLMOps.
+
+The audience are AI engineers, developers, data scientists and in general all people interested in AI.
+
+The content is stored in the folder "radar" inside a folder with a certain date.
+
+# Adding Radar articles (items)
+
+You should not add a new date folder but use the latest folder. 
+Create a new markdown file with the name of the item and fill it with the items content.
+
+## Radar article (item) content
+
+The file starts with this header part:
+
+```
+---
+title: "The Title"
+ring: assess
+segment: frameworks
+tags: [evaluation, security]
+---
+```
+
+As quadrant only use allowed values: architecture-pattern, frameworks, models-platforms, evaluation, data-features, tools
+
+The content of the item is a markdown description of the item.
+The audience are AI engineers, developers and data scientists. Be precise and concise and add mentionable insides and recommendations. Do not use marketing language and avoid superlatives.
+Also link to other items using markdown links.
+Also add links to internet resources and the official pages (if any).
+
+## Linking between articles
+If appropriate, add links to other articles using markdown links.
+The link to an article is a path that combines <segment> and <filename>.
+
+For example an article "model_leaderboard.md" with the segment "models-platforms" would be linked as "/models-platforms/model_leaderboards/"

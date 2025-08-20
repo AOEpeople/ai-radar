@@ -1,0 +1,161 @@
+{
+  "basePath": "/",
+  "baseUrl": "https://ai-radar.aoe.com",
+  "editUrl": "https://github.com/AOEpeople/ai-radar/blob/main/radar/{release}/{id}.md",
+  "logoFile": "/logo.svg",
+  "jsFile": "",
+  "toggles": {
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false
+  },
+  "sections": ["radar", "tags", "list"],
+  "colors": {
+    "foreground": "#fff",
+    "background": "#173d7a",
+    "highlight": "#029df7",
+    "content": "#fff",
+    "text": "#575757",
+    "link": "#029df7",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "tag": "rgba(255, 255, 255, 0.1)"
+  },
+  "segments": [
+    {
+      "id": "architecture-pattern",
+      "title": "Pattern & Architectures",
+      "description": "Focuses on architecture patterns and standards to design, build, and integrate robust AI systems and agents.",
+      "color": "#FF6384"
+    },
+    {
+      "id": "frameworks",
+      "title": "Frameworks",
+      "description": "Focuses on Frameworks used in AI application development.",
+      "color": "#36A2EB"
+    },
+    {
+      "id": "data-features",
+      "title": "Data, Feature Extraction & Storage",
+      "description": "Covers the aspects of data collection, preparation, feature extraction and theire storage and handling.",
+      "color": "#FFCE56"
+    },
+    {
+      "id": "models-platforms",
+      "title": "Models & Platforms",
+      "description": "Covers model discovery and selection of models. As well as common platforms and fools that run models for you.",
+      "color": "#4BC0C0"
+    },
+    {
+      "id": "evaluation",
+      "title": "Evaluation & Observability",
+      "description": "Covers tools and platforms for evaluating, testing, and optimizing AI models, including deployment frameworks for managing model lifecycles in production.",
+      "color": "#9966FF"
+    },
+    {
+      "id": "tools",
+      "title": "Other Tools",
+      "description": "Includes utilities and tools that do not fit into one category. For example overarching lowcode or AI Workflow tools.",
+      "color": "#FF9F40"
+    }
+  ],
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "Adopt",
+      "description": "",
+      "color": "#2e7d32",
+      "radius": 0.5,
+      "strokeWidth": 5
+    },
+    {
+      "id": "trial",
+      "title": "Trial",
+      "description": "",
+      "color": "#0288d1",
+      "radius": 0.69,
+      "strokeWidth": 3
+    },
+    {
+      "id": "assess",
+      "title": "Assess",
+      "description": "",
+      "color": "#fb8c00",
+      "radius": 0.85,
+      "strokeWidth": 2
+    },
+    {
+      "id": "hold",
+      "title": "Hold",
+      "description": "",
+      "color": "#c62828",
+      "radius": 1,
+      "strokeWidth": 0.75
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#8e24aa",
+      "title": "New",
+      "titleShort": "N",
+      "description": "New in this version"
+    },
+    "changed": {
+      "color": "#00796b",
+      "title": "Changed",
+      "titleShort": "C",
+      "description": "Recently changed"
+    },
+    "default": {
+      "description": "Unchanged"
+    }
+  },
+  "chart": {
+    "size": 800,
+    "blipSize": 12
+  },
+  "social": [
+    {
+      "href": "https://twitter.com/aoepeople",
+      "icon": "x"
+    },
+    {
+      "href": "https://www.linkedin.com/company/aoe",
+      "icon": "linkedIn"
+    },
+    {
+      "href": "https://www.xing.com/company/aoe",
+      "icon": "xing"
+    },
+    {
+      "href": "https://github.com/aoepeople",
+      "icon": "github"
+    }
+  ],
+  "footerLinks": [
+    {
+      "url": "https://www.aoe.com/en/legal/imprint",
+      "label": "Legal Information"
+    },
+    {
+      "url": "https://www.aoe.com/en/legal/privacy-policy",
+      "label": "Privacy Policy"
+    }
+  ],
+  "labels": {
+    "title": "AI Technology Radar",
+    "subtitle": "The Radar around the Development of professional AI Agents, RAG Systems and LLMOps.",
+    "segment": "Segment",
+    "segmentOverview": "Segment Overview",
+    "zoomIn": "Zoom in",
+    "filterByTag": "Filter by Tag",
+    "footer": "The AI radar is a project by AOE GmbH. Feel free to build your own radar based on the open source project.",
+    "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
+    "notFound": "404 - Page not found",
+    "pageAbout": "How to use AOE AI Technology Radar?",
+    "pageOverview": "Technologies Overview",
+    "pageSearch": "Search",
+    "searchPlaceholder": "What are you looking for?",
+    "metaDescription": ""
+  }
+}
