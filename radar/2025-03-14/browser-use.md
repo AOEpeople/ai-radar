@@ -1,7 +1,7 @@
 ---
 title: "Browser Use"
 ring: assess
-segment: frameworks
+segment: data-features
 tags: [automation]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Mem0"
 ring: assess
-segment: data-features
+segment: frameworks
 tags: []
 ---
 
