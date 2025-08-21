@@ -75,9 +75,9 @@ The goal is to inspire and guide the teams’ daily work and support informed, s
 
 We also hope the radar proves valuable and inspiring to the broader AI development community.
 
-We categorize items into six distinct quadrants to structure the broad range of technologies involved in AI Agent development:
+We categorize items into six distinct segments to structure the broad range of technologies involved in AI Agent development:
 
-###  The quadrants are:
+###  The segments are:
 
 - **Pattern & Architectures:** Covers architectural patterns, strategies and standards essential for designing, building, and integrating robust AI agents and systems.
 
