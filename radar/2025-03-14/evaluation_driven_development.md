@@ -25,13 +25,15 @@ Teams building AI products should treat evals as first-class development artifac
 
 ![EBAD](/images/evaluation-based-dev.png)
 
-* create, improve & curate Evaluation Sets and related evaluation logic and metrics: Create evaluation sets with LLM test case. Different sets can be used for different aspects (e.g. golden set, hard negatives, online evals). Version and freeze dataset states.
+As the image shows - the evaluation driven development cycles contain the following main steps:
+
+* *curate evaluation sets & related evaluation logic and metrics:* Create evaluation sets with LLM test case. Different sets can be used for different aspects (e.g. golden set, hard negatives, online evals). Version and freeze dataset states.
     * Use "Red Teaming" to test "bad" cases. 
     * Collect real-world evaluations based on user feedback and usage monitoring
     * Use experts / human feedback to define cases
-* Run & monitor. Execute evaluations during development and automatically in CI/CD. Run multiple times for non deterministic evaluations. Track trends.
-* Tune deliberately: During tuning change only one aspect at a time (retriever, chunking, reranking, context/prompt, tool/agent logic, guardrails, model choice)and measure impact.
-* Gates & regression protection: Releases proceed only if benchmarks are held or improved.
+* *Run & monitor:* Execute evaluations during development and automatically in CI/CD. Run multiple times for non deterministic evaluations. Track trends.
+* *Tune deliberately:* During tuning change only one aspect at a time (retriever, chunking, reranking, context/prompt, tool/agent logic, guardrails, model choice)and measure impact.
+* *Gates & regression protection:* Releases proceed only if benchmarks are held or improved.
 
 ## What could be measured?
 
