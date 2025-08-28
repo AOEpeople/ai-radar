@@ -35,6 +35,10 @@ Developers can use client libraries in Node.js, Python, Swift, and other languag
 - Each model has its own pricing based on hardware utilization and processing time
 - Streaming support is limited to compatible models
 
+## Other providers
+
+Simelar providers are fal.ai, Segmind, PiAPI, Pollo AI and OpenRouter AI.
+
 ## Resources
 
 - [Official Website](https://replicate.com/)

@@ -1,11 +1,13 @@
 ---
 title: "Ragas"
-ring: adopt
+ring: trial
 segment: evaluation
 tags: [evaluation]
 ---
 
-Ragas is a framework for evaluating and monitoring Retrieval Augmented Generation (RAG) applications. It provides comprehensive metrics and tools to assess the quality, reliability, and performance of AI systems that combine language models with external knowledge bases. However, based on our team's experience, Ragas has notable limitations in practice, and we generally recommend [Deepeval](/evaluation/deepeval/) as a more user-friendly and robust alternative for most use cases.
+Ragas is a framework for evaluating and monitoring Retrieval Augmented Generation (RAG) applications. It provides comprehensive metrics and tools to assess the quality, reliability, and performance of AI systems that combine language models with external knowledge bases. 
+
+The alternative [Deepeval](/evaluation/deepeval/) is integrated in an ecosystem and to our experience is more user-friendly for most use cases.
 
 ## Key Features
 
