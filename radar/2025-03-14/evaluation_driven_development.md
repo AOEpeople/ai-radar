@@ -47,7 +47,9 @@ During tuning change only one aspect at a time and measure impact. The process o
 - Optimize the whole context (see [Context Engineering](/architecture-pattern/context-engineering/))  
 
 
-**Gates & regression protection:** Releases proceed only if benchmarks are held or improved.
+**Gates & regression protection:** 
+- Releases proceed only if benchmarks are held or improved.
+- Also use evaluations to test your guardrails. See [Prompt Injection Awareness](architecture-pattern/prompt_injection_awareness/)
 
 ## What could be measured?
 
