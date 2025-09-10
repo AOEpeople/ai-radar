@@ -27,13 +27,27 @@ Teams building AI products should treat evals as first-class development artifac
 
 As the image shows - the evaluation driven development cycles contain the following main steps:
 
-* *curate evaluation sets & related evaluation logic and metrics:* Create evaluation sets with LLM test case. Different sets can be used for different aspects (e.g. golden set, hard negatives, online evals). Version and freeze dataset states.
+**curate evaluation sets & related evaluation logic and metrics:** 
+Create evaluation sets with LLM test case. Different sets can be used for different aspects (e.g. golden set, hard negatives, online evals). Version and freeze dataset states.
     * Use "Red Teaming" to test "bad" cases. 
     * Collect real-world evaluations based on user feedback and usage monitoring
     * Use experts / human feedback to define cases
-* *Run & monitor:* Execute evaluations during development and automatically in CI/CD. Run multiple times for non deterministic evaluations. Track trends.
-* *Tune deliberately:* During tuning change only one aspect at a time (retriever, chunking, reranking, context/prompt, tool/agent logic, guardrails, model choice)and measure impact.
-* *Gates & regression protection:* Releases proceed only if benchmarks are held or improved.
+
+**Run & monitor:** 
+Execute evaluations during development and automatically in CI/CD. Run multiple times for non deterministic evaluations. Track trends.
+
+**Tune deliberately:** 
+During tuning change only one aspect at a time and measure impact. The process of tuning can be a complex one and typically include the following aspects:
+- Tune your system prompt. See [Prompt Engineering](/architecture-pattern/prompt_engineering/)
+- Tune the retrival of knowlegde or even update the retrieval architecture. See related articles [RAG](/architecture-pattern/rag/), [Graph RAG](/architecture-pattern/graph_rag/) and [Smart Vector Database Usage](/data-features/smart_vector_db_usage/)
+- Tune the preparation and indexing of your data (e.g. extraction, chunking strategies, embeddings)
+- Try out different models. See article [Model Discovery & Selection](/models-platforms/model_discovery/)
+- Optimize Tool Usage
+- Optimize Guardrails
+- Optimize the whole context (see [Context Engineering](/architecture-pattern/context_engineering/))  
+
+
+**Gates & regression protection:** Releases proceed only if benchmarks are held or improved.
 
 ## What could be measured?
 
