@@ -39,12 +39,12 @@ Execute evaluations during development and automatically in CI/CD. Run multiple 
 **Tune deliberately:** 
 During tuning change only one aspect at a time and measure impact. The process of tuning can be a complex one and typically include the following aspects:
 - Tune your system prompt. See [Prompt Engineering](/architecture-pattern/prompt_engineering/)
-- Tune the retrival of knowlegde or even update the retrieval architecture. See related articles [RAG](/architecture-pattern/rag/), [Graph RAG](/architecture-pattern/graph_rag/) and [Smart Vector Database Usage](/data-features/smart_vector_db_usage/)
+- Tune the retrival of knowlegde or even update the retrieval architecture. See related articles [Advanced & Modular RAG](/architecture-pattern/rag/), [Graph RAG](/architecture-pattern/graph_rag/) and [Smart Vector Database Usage](/data-features/smart_vector_db_usage/)
 - Tune the preparation and indexing of your data (e.g. extraction, chunking strategies, embeddings)
 - Try out different models. See article [Model Discovery & Selection](/models-platforms/model_discovery/)
 - Optimize Tool Usage
 - Optimize Guardrails
-- Optimize the whole context (see [Context Engineering](/architecture-pattern/context_engineering/))  
+- Optimize the whole context (see [Context Engineering](/architecture-pattern/context-engineering/))  
 
 
 **Gates & regression protection:** Releases proceed only if benchmarks are held or improved.
