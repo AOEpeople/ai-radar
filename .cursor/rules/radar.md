@@ -39,6 +39,13 @@ The audience are AI engineers, developers and data scientists. Be precise and co
 Also link to other items using markdown links.
 Also add links to internet resources and the official pages (if any).
 
+## Updating an existing article in a new release
+
+The frontend shows an article's history: the old entry and the new entry after it.
+An update file (same filename, placed in a new release/date folder) must NOT repeat the full article.
+It contains only the frontmatter (with the possibly changed ring), the actual changes and a short justification for the update or ring move.
+Start the body with e.g. `**Update 07/2026 (trial → adopt):** ...`.
+
 ## Linking between articles
 If appropriate, add links to other articles using markdown links.
 The link to an article is a path that combines <segment> and <filename>.
