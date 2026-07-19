@@ -90,6 +90,15 @@ Mittlere Priorität (wesentliche Lücken):
 ## 4. Neue Einträge (Auswahl durch Daniel)
 
 - [x] Betterleaks (data-features, assess) — freigegeben 2026-07-19
+- [ ] **Coding-/Harness-Tools als separate Einträge** (Segment tools, neuer Tag `harness`):
+      - [ ] Claude Code — **adopt**
+      - [ ] OpenAI Codex — **adopt**
+      - [ ] OpenCode — **adopt**
+      - [ ] Antigravity (Google) — **trial**
+      - [ ] Neuen Tag `harness` in Tag-Liste aufnehmen (Readme.md + CLAUDE.md)
+- [ ] **"Harness Engineering"** — neuer Artikel im Segment architecture-pattern
+- [ ] **LLM-Proxy/-Gateway (LiteLLM)** — gehört ins Radar; Segment noch offen
+      (tools vs. models-platforms), Umfang klären (LiteLLM als Eintrag oder Pattern "LLM Gateway")
 
 - [ ] Langfuse (evaluation, trial/adopt)
 - [ ] Agentische Coding-CLIs: Claude Code, Codex, Gemini CLI (tools)

@@ -55,7 +55,7 @@
     {
       "id": "tools",
       "title": "Tools & Coding Agents",
-      "description": "Utilities and overarching tools — from lowcode/AI workflow tools and chat UIs to agentic coding tools and harnesses (coding CLIs, IDE agents, CI harnesses).",
+      "description": "Overarching utilities and tools — including AI workflow tools, coding agents and harnesses.",
       "color": "#FF9F40"
     }
   ],
