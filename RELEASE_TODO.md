@@ -61,23 +61,20 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] `owasp_llm_top_10.md` — Agentic Top 10 mit ASI-Auszügen (freigegeben 2026-07-19)
 - [x] `rag.md` — Agentic RAG als etabliertes Muster, Long-Context-Hybrid (freigegeben 2026-07-19)
 - [x] `smart_vector_db_usage.md` — Hybrid+Reranking Default, agentisches Retrieval (freigegeben 2026-07-19)
-- [ ] `aws-bedrock.md` — AgentCore statt "Bedrock Agents", Modellliste
-- [ ] `huggingface.md` — Zahlen aktualisieren, Inference Providers
-- [ ] `ollama.md` — Cloud-Angebot, Sovereignty-Einordnung, Modellliste
-- [ ] `replicate.md` — Cloudflare-Übernahme + Roadmap-Risiko
-- [ ] `librechat.md` — ClickHouse-Übernahme (bleibt MIT), 2026-Roadmap
-- [ ] `n8n.md` — SAP-Investment, Series C, Integrations-Zahl
-- [ ] `multi_agent_system.md` — Framework-Liste (MS Agent Framework, OpenAI/Claude/Google SDKs), Supervisor-Pattern
-- [ ] `evaluation_driven_development.md` — Agent-Evaluation ergänzen, Tool-Verweise
-- [ ] `prompt_engineering.md` — Reasoning-Modelle, Verzahnung mit Context Engineering
+- [x] ~~aws-bedrock, huggingface, ollama~~ — verworfen 2026-07-20: unsignifikant, alte Einträge bleiben
+- [x] `replicate.md` — Cloudflare-Übernahme + Roadmap-Risiko (freigegeben 2026-07-20)
+- [ ] `librechat.md` — ClickHouse-Übernahme, bleibt MIT (Eigentümerwechsel = entscheidungsrelevant)
+- [x] ~~n8n.md~~ — übersprungen 2026-07-20 (unsignifikant nach neuer Messlatte)
+- [ ] `multi_agent_system.md` — Framework-Liste ist irreführend geworden (AutoGen abgelöst, llama-agents tot)
+- [ ] `evaluation_driven_development.md` — verweist auf Legacy "LangChain Evaluation" (jetzt hold); Agent-Evals
+- [x] ~~prompt_engineering.md~~ — übersprungen 2026-07-20 (Grundlagen weiter gültig)
 - [x] `garak.md` — Agent-Breaker-Probe, NVIDIA-Repo-Link (freigegeben 2026-07-19)
-- [ ] `phoenix.md` — v17, Phoenix Intelligence, Doku-Link
+- [x] ~~phoenix.md~~ — übersprungen 2026-07-20 (unsignifikant nach neuer Messlatte)
 - [x] `chroma-db.md` — Rust-Rewrite, Hybrid Search, Chroma Cloud (freigegeben 2026-07-19)
 - [x] `weaviate.md` — v1.36/1.37, eingebauter MCP-Server (freigegeben 2026-07-19)
 - [x] `sensitive_data_scanning.md` — PII-Guardrail-Pattern, Presidio (freigegeben 2026-07-19)
-- [ ] `llm-limitations.md` — Hallucination-Paper 2025, Reasoning-Halluzinationen, LinkedIn-Link ersetzen
-- [ ] `model_discovery.md` — Gateways/Router, agentische Kriterien, EU AI Act
-- [ ] `tool-finders.md` — Liste kuratieren (agentische Coding-Tools, Sora/Veo, Lovable)
+- [x] ~~llm-limitations.md, model_discovery.md, tool-finders.md~~ — übersprungen 2026-07-20
+      (unsignifikant nach neuer Messlatte; alte Einträge bleiben)
 
 ## 3. Model News (neu: halbjährlich)
 
@@ -94,8 +91,8 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] **Coding-/Harness-Tools als separate Einträge** (freigegeben 2026-07-19):
       Claude Code (adopt), OpenAI Codex (adopt), OpenCode (adopt), Antigravity (trial);
       Tag `harness` in Readme.md + CLAUDE.md aufgenommen
-- [ ] **"Harness Engineering"** (architecture-pattern, trial) — erweitert um "Loops & Loop
-      Engineering" und "Memory & Self-Improvement", wartet auf Freigabe
+- [x] **"Harness Engineering"** (architecture-pattern, trial) — inkl. Loops, Memory/Self-Improvement,
+      HITL-Abschnitt (freigegeben & committet 2026-07-19)
 - [ ] **LLM-Proxy/-Gateway (LiteLLM)** — gehört ins Radar; Segment noch offen
       (tools vs. models-platforms), Umfang klären (LiteLLM als Eintrag oder Pattern "LLM Gateway")
 
