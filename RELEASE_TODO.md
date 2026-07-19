@@ -28,10 +28,10 @@ verschwinden im Radar nicht, sie werden im neuen Ordner aktualisiert (ggf. auch 
 - [x] `vercel-ai-sdk.md` trial → **adopt** (freigegeben 2026-07-18)
 - [ ] ~~`deepeval.md` trial → adopt~~ **zurückgestellt** (2026-07-18): aktuell schlechte Erfahrungen
       mit der Confident-AI-Plattform — Update erst, wenn Team-Einschätzung wieder klar ist
-- [ ] `qdrant.md` trial → **adopt** (Vorbehalt: nur wenn Team-Erfahrung positiv — Daniel bestätigt)
-- [ ] `a2a.md` assess → **trial** (+ Linux Foundation, v1.0-Spec, Repo-Link fixen)
-- [ ] `crew-ai.md` assess → **trial** (+ v1.14, OSS/AMP-Split)
-- [ ] `docker-model-runner.md` assess → **trial** (+ GA seit Okt 2025, "(Beta)" aus Titel, Doku-Link)
+- [x] `qdrant.md` trial → **adopt** (freigegeben 2026-07-19)
+- [x] `a2a.md` assess → **trial** (freigegeben 2026-07-19)
+- [x] `crew-ai.md` assess → **trial** (freigegeben 2026-07-19)
+- [x] `docker-model-runner.md` assess → **trial** (freigegeben 2026-07-19)
 - [ ] `browser-use.md` assess → **trial** (+ CDP statt Playwright — Kernaussage korrigieren)
 - [ ] `crawl4ai.md` assess → **trial** (+ v0.8/0.9, Docker-API, Security-Hinweise)
 - [ ] `mem0.md` assess → **trial** (+ v2.0, Breaking-Changes-Hinweis, Series A)
