@@ -59,8 +59,8 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] `prompt_injection_awareness.md` — Lethal Trifecta, architektonische Defenses, HITL,
       MCP-Risiken, NSA/CISA (freigegeben 2026-07-19)
 - [x] `owasp_llm_top_10.md` — Agentic Top 10 mit ASI-Auszügen (freigegeben 2026-07-19)
-- [ ] `rag.md` — Agentic RAG relativieren, Long-Context-Hybrid
-- [ ] `smart_vector_db_usage.md` — Hybrid Search + Reranking als Default, agentisches Retrieval
+- [x] `rag.md` — Agentic RAG als etabliertes Muster, Long-Context-Hybrid (freigegeben 2026-07-19)
+- [x] `smart_vector_db_usage.md` — Hybrid+Reranking Default, agentisches Retrieval (freigegeben 2026-07-19)
 - [ ] `aws-bedrock.md` — AgentCore statt "Bedrock Agents", Modellliste
 - [ ] `huggingface.md` — Zahlen aktualisieren, Inference Providers
 - [ ] `ollama.md` — Cloud-Angebot, Sovereignty-Einordnung, Modellliste
@@ -72,8 +72,8 @@ Mittlere Priorität (wesentliche Lücken):
 - [ ] `prompt_engineering.md` — Reasoning-Modelle, Verzahnung mit Context Engineering
 - [x] `garak.md` — Agent-Breaker-Probe, NVIDIA-Repo-Link (freigegeben 2026-07-19)
 - [ ] `phoenix.md` — v17, Phoenix Intelligence, Doku-Link
-- [ ] `chroma-db.md` — Rust-Rewrite, Hybrid Search, Chroma Cloud
-- [ ] `weaviate.md` — v1.36/1.37, eingebauter MCP-Server
+- [x] `chroma-db.md` — Rust-Rewrite, Hybrid Search, Chroma Cloud (freigegeben 2026-07-19)
+- [x] `weaviate.md` — v1.36/1.37, eingebauter MCP-Server (freigegeben 2026-07-19)
 - [x] `sensitive_data_scanning.md` — PII-Guardrail-Pattern, Presidio (freigegeben 2026-07-19)
 - [ ] `llm-limitations.md` — Hallucination-Paper 2025, Reasoning-Halluzinationen, LinkedIn-Link ersetzen
 - [ ] `model_discovery.md` — Gateways/Router, agentische Kriterien, EU AI Act
