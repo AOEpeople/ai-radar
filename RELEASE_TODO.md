@@ -19,7 +19,11 @@ verschwinden im Radar nicht, sie werden im neuen Ordner aktualisiert (ggf. auch 
       recherchiert neu geschrieben (siehe Abschnitt 3)
 - [x] Modell-News-Format entschieden: **halbjährliche Sammel-Artikel**, die im jeweiligen
       Release-Ordner aktualisiert werden
-- [ ] CLAUDE.md aktualisieren (neuester Ordner = 2026-07-17, Branch-/PR-Workflow)
+- [x] CLAUDE.md aktualisiert (neuester Ordner = 2026-07-17, Update-Konvention dokumentiert)
+- [ ] **Segmente erweitern:** `config.json` um Segment(e) für **Coding Tools & Harness**
+      (agentische Coding-CLIs/-Agents, Harnesses) ergänzen — zu klären: ein neues Segment oder
+      Umbenennung/Zuschnitt bestehender Segmente; welche bestehenden Einträge dorthin wandern
+      (z. B. tool-finders); Segment-Werte auch in CLAUDE.md / .cursor/rules nachziehen
 
 ## 1. Ring-Änderungen (Kopie + Frontmatter + kurzer Update-Absatz)
 
@@ -32,10 +36,10 @@ verschwinden im Radar nicht, sie werden im neuen Ordner aktualisiert (ggf. auch 
 - [x] `a2a.md` assess → **trial** (freigegeben 2026-07-19)
 - [x] `crew-ai.md` assess → **trial** (freigegeben 2026-07-19)
 - [x] `docker-model-runner.md` assess → **trial** (freigegeben 2026-07-19)
-- [ ] `browser-use.md` assess → **trial** (+ CDP statt Playwright — Kernaussage korrigieren)
-- [ ] `crawl4ai.md` assess → **trial** (+ v0.8/0.9, Docker-API, Security-Hinweise)
-- [ ] `mem0.md` assess → **trial** (+ v2.0, Breaking-Changes-Hinweis, Series A)
-- [ ] `ragas.md` trial → **hold** (+ Repo-Umzug zu vibrantlabsai, v0.4)
+- [x] `browser-use.md` assess → **trial** (freigegeben 2026-07-19)
+- [x] `crawl4ai.md` assess → **trial** (freigegeben 2026-07-19)
+- [x] `mem0.md` assess → **trial** (freigegeben 2026-07-19)
+- [x] `ragas.md` trial → **hold** (freigegeben 2026-07-19)
 - [ ] `langchain_evaluation.md` trial → **hold** ODER Rewrite zu "LangSmith / OpenEvals / AgentEvals"
 - [ ] `kotaemon.md` assess → **hold** (keine Releases seit Mai 2025)
 
