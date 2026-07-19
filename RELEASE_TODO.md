@@ -46,10 +46,11 @@ verschwinden im Radar nicht, sie werden im neuen Ordner aktualisiert (ggf. auch 
 ## 2. Inhaltliche Updates (Ring bleibt)
 
 Hohe Priorität (faktisch falsch geworden):
-- [ ] `llamaindex.md` — Rewrite (Workflows als Kern-Abstraktion, llama_deploy, Links)
-- [ ] `langchain.md` — 1.0/1.x-Update (create_agent, Middleware, docs.langchain.com)
-- [ ] `langgraph.md` — 1.0-Update, Rolle als Runtime, tote Links
-- [ ] `azure_openai.md` — GPT-5.x, Retirement-Hinweis, "Microsoft Foundry"-Branding
+- [x] `llamaindex.md` — Update (freigegeben 2026-07-19, Titel jetzt "LlamaIndex & LlamaParse")
+- [x] `langchain.md` — 1.0/1.x-Update (freigegeben 2026-07-19)
+- [x] `langgraph.md` — 1.0-Update (freigegeben 2026-07-19)
+- [x] `azure_openai.md` — ausgeblendet (`featured: false`), abgelöst durch neuen Eintrag
+      `microsoft_foundry.md` (Entwurf, wartet auf Freigabe)
 - [ ] `openweb_ui.md` — Lizenzabschnitt ergänzen (nicht mehr OSI-konform, White-Label kostenpflichtig)
 - [ ] `gitleaks.md` — Feature-complete-Status, Nachfolger Betterleaks erwähnen
 - [ ] `stackit-model-serving.md` — GA statt Beta, neuer Name, Link fixen (utm-Parameter raus)
