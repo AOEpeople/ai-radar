@@ -34,6 +34,8 @@ tags: [evaluation, security]
 
 As quadrant only use allowed values: architecture-pattern, frameworks, models-platforms, evaluation, data-features, tools
 
+Optional frontmatter: `featured: false` hides the item from the radar chart (it stays in the overview). Use this to retire stale items instead of deleting them.
+
 The content of the item is a markdown description of the item.
 The audience are AI engineers, developers and data scientists. Be precise and concise and add mentionable insides and recommendations. Do not use marketing language and avoid superlatives.
 Also link to other items using markdown links.

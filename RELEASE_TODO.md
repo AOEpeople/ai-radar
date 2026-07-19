@@ -40,8 +40,8 @@ verschwinden im Radar nicht, sie werden im neuen Ordner aktualisiert (ggf. auch 
 - [x] `crawl4ai.md` assess → **trial** (freigegeben 2026-07-19)
 - [x] `mem0.md` assess → **trial** (freigegeben 2026-07-19)
 - [x] `ragas.md` trial → **hold** (freigegeben 2026-07-19)
-- [ ] `langchain_evaluation.md` trial → **hold** ODER Rewrite zu "LangSmith / OpenEvals / AgentEvals"
-- [ ] `kotaemon.md` assess → **hold** (keine Releases seit Mai 2025)
+- [x] `langchain_evaluation.md` trial → **hold** + `featured: false` (freigegeben 2026-07-19)
+- [x] `kotaemon.md` assess → **hold** + `featured: false` (freigegeben 2026-07-19)
 
 ## 2. Inhaltliche Updates (Ring bleibt)
 
