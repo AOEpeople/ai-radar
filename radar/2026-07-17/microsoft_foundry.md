@@ -9,7 +9,7 @@ Microsoft Foundry (formerly Azure AI Foundry) is Microsoft's unified platform fo
 
 ## Key Features
 
-- **Model catalog**: OpenAI frontier models (currently GPT-5.1 with adaptive reasoning, GPT-5.5 with 1M token context) plus open-weight and third-party models (Meta, Mistral, DeepSeek, xAI and others) behind one API.
+- **Model catalog**: OpenAI frontier models plus open-weight and third-party models (Meta, Mistral, DeepSeek, xAI and others) behind one API.
 - **Agent tooling**: Foundry Agent Service for hosting agents, with built-in evaluations, guardrails/content safety and observability.
 - **Enterprise integration**: Entra ID, private networking, regional data residency and compliance certifications - the same reasons Azure OpenAI was our enterprise default.
 

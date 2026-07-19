@@ -51,11 +51,10 @@ Hohe Priorität (faktisch falsch geworden):
 - [x] `langgraph.md` — 1.0-Update (freigegeben 2026-07-19)
 - [x] `azure_openai.md` — ausgeblendet (`featured: false`), abgelöst durch neuen Eintrag
       `microsoft_foundry.md` (Entwurf, wartet auf Freigabe)
-- [ ] `openweb_ui.md` — Lizenzabschnitt ergänzen (nicht mehr OSI-konform, White-Label kostenpflichtig)
-- [ ] `gitleaks.md` — Feature-complete-Status, Nachfolger Betterleaks erwähnen
-- [ ] `stackit-model-serving.md` — GA statt Beta, neuer Name, Link fixen (utm-Parameter raus)
-- [ ] `model_leaderboards.md` — HF Open LLM Leaderboard raus; SWE-bench Verified, Terminal-Bench,
-      OSWorld, ARC-AGI-2, BFCL V4 rein; Hinweis Benchmark-Sättigung; Tippfehler
+- [x] `openweb_ui.md` — Lizenzabschnitt (freigegeben 2026-07-19)
+- [x] `gitleaks.md` — Feature-complete + Betterleaks-Verweis (freigegeben 2026-07-19)
+- [x] `stackit-model-serving.md` — GA, neuer Name, Links (freigegeben 2026-07-19)
+- [x] `model_leaderboards.md` — Sättigungs-These, AA-Index v4.1, METR, DeepSWE (freigegeben 2026-07-19)
 
 Mittlere Priorität (wesentliche Lücken):
 - [ ] `prompt_injection_awareness.md` — Lethal Trifecta, architektonische Defenses, MCP-Risiken, NSA/CISA-Guidance
@@ -90,6 +89,8 @@ Mittlere Priorität (wesentliche Lücken):
       Ausblenden im Radar-Tool prüfen und mit Daniel abstimmen
 
 ## 4. Neue Einträge (Auswahl durch Daniel)
+
+- [x] Betterleaks (data-features, assess) — freigegeben 2026-07-19
 
 - [ ] Langfuse (evaluation, trial/adopt)
 - [ ] Agentische Coding-CLIs: Claude Code, Codex, Gemini CLI (tools)
