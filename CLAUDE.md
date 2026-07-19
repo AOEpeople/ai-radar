@@ -40,7 +40,7 @@ tags: [evaluation, security]
 
 - **ring** — one of: `adopt`, `trial`, `assess`, `hold`
 - **segment** — one of: `architecture-pattern`, `frameworks`, `models-platforms`, `evaluation`, `data-features`, `tools`
-- **tags** — use established tags only (see Readme.md): UI, automation, chat, extraction, benchmarking, evaluation, knowledge, patterns, platform, prompting, protocol, retrieval, security, workflow, sovereignty, observability, vector-db, model-serving
+- **tags** — use established tags only (see Readme.md): UI, automation, chat, extraction, harness, benchmarking, evaluation, knowledge, patterns, platform, prompting, protocol, retrieval, security, workflow, sovereignty, observability, vector-db, model-serving
 - **featured** — optional, default `true`. Set `featured: false` to hide the item from the radar chart; it stays available in the overview (used to retire stale items without deleting their history)
 
 ### Updating an existing article in a new release
