@@ -20,10 +20,9 @@ verschwinden im Radar nicht, sie werden im neuen Ordner aktualisiert (ggf. auch 
 - [x] Modell-News-Format entschieden: **halbjährliche Sammel-Artikel**, die im jeweiligen
       Release-Ordner aktualisiert werden
 - [x] CLAUDE.md aktualisiert (neuester Ordner = 2026-07-17, Update-Konvention dokumentiert)
-- [ ] **Segmente erweitern:** `config.json` um Segment(e) für **Coding Tools & Harness**
-      (agentische Coding-CLIs/-Agents, Harnesses) ergänzen — zu klären: ein neues Segment oder
-      Umbenennung/Zuschnitt bestehender Segmente; welche bestehenden Einträge dorthin wandern
-      (z. B. tool-finders); Segment-Werte auch in CLAUDE.md / .cursor/rules nachziehen
+- [x] **Segmente erweitert** (2026-07-19): `tools` umgewidmet zu **"Tools & Coding Agents"**
+      (Id bleibt `tools`, keine Link-Brüche; Radar ist auf 6 Segmente begrenzt). Neue
+      Coding-CLI-/Harness-Einträge kommen ins Segment `tools`
 
 ## 1. Ring-Änderungen (Kopie + Frontmatter + kurzer Update-Absatz)
 
