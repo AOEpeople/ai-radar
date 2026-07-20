@@ -78,12 +78,10 @@ Mittlere Priorität (wesentliche Lücken):
 
 ## 3. Model News (neu: halbjährlich)
 
-- [ ] Neu: `model_news_h2_25.md` — H2 2025 (GPT-5, gpt-oss-120b/20b, Opus 4.1/Sonnet 4.5, Grok 4,
-      DeepSeek-V3.1, Kimi K2; GPT-5.1/5.2, Gemini 3 Pro/Flash, Opus 4.5, Kimi K2 Thinking)
-- [ ] Neu: `model_news_h1_26.md` — H1 2026 (Opus 4.6, Gemini 3.1/3.5, GPT-5.5/5.6, DeepSeek V4,
-      Sonnet 5, Qwen 3.5)
-- [ ] Bestehende Q1/Q2-25-Artikel: im neuen Ordner konsolidieren oder ausblenden — Mechanik fürs
-      Ausblenden im Radar-Tool prüfen und mit Daniel abstimmen
+- [x] `model_news_h2_25.md` — Trends-fokussiert, nach Playern gruppiert (freigegeben 2026-07-20)
+- [x] `model_news_h1_26.md` — dito (freigegeben 2026-07-20)
+- [x] Q1/Q2-25-Artikel per `featured: false` ausgeblendet (freigegeben 2026-07-20)
+- [ ] Neu: `model_news_h2_26.md` — laufend fortzuschreibender Artikel, Start mit Juli-Releases
 
 ## 4. Neue Einträge (Auswahl durch Daniel)
 
@@ -98,8 +96,12 @@ Mittlere Priorität (wesentliche Lücken):
       Tag `harness` in Readme.md + CLAUDE.md aufgenommen
 - [x] **"Harness Engineering"** (architecture-pattern, trial) — inkl. Loops, Memory/Self-Improvement,
       HITL-Abschnitt (freigegeben & committet 2026-07-19)
-- [ ] **LLM-Proxy/-Gateway (LiteLLM)** — gehört ins Radar; Segment noch offen
-      (tools vs. models-platforms), Umfang klären (LiteLLM als Eintrag oder Pattern "LLM Gateway")
+- [ ] **LiteLLM** (LLM-Proxy/-Gateway) — als Eintrag aufnehmen; Segment noch offen
+      (tools vs. models-platforms); danach Referenzen anpassen: `sensitive_data_scanning.md`
+      verlinkt LiteLLM bisher nur extern
+- [ ] **Microsoft Presidio** — als Eintrag aufnehmen (Vorschlag: Segment evaluation,
+      Security-Aspekt; De-facto-Standard PII-Detection/De-Identification); danach Referenzen
+      anpassen: `sensitive_data_scanning.md` verlinkt Presidio bisher nur extern
 
 - [ ] Langfuse (evaluation, trial/adopt)
 - [ ] Agentische Coding-CLIs: Claude Code, Codex, Gemini CLI (tools)
