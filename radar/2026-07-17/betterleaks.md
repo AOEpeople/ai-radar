@@ -1,11 +1,11 @@
 ---
 title: "Betterleaks"
 ring: assess
-segment: data-features
+segment: evaluation
 tags: [security]
 ---
 
-Betterleaks is the successor of [Gitleaks](/data-features/gitleaks/), started in February 2026 by the original Gitleaks author (who no longer controls the Gitleaks repository and declared it feature-complete). MIT-licensed, backed by Aikido Security.
+Betterleaks is the successor of [Gitleaks](/evaluation/gitleaks/), started in February 2026 by the original Gitleaks author (who no longer controls the Gitleaks repository and declared it feature-complete). MIT-licensed, backed by Aikido Security.
 
 ## What is different from Gitleaks
 

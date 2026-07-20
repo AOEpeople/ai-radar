@@ -87,7 +87,12 @@ Mittlere Priorität (wesentliche Lücken):
 
 ## 4. Neue Einträge (Auswahl durch Daniel)
 
-- [x] Betterleaks (data-features, assess) — freigegeben 2026-07-19
+- [x] Betterleaks (assess) — freigegeben 2026-07-19; 2026-07-20 ins Segment evaluation verschoben
+- [x] **Segment `evaluation` erweitert** zu "Evaluation, Observability & Security";
+      gitleaks + betterleaks verschoben, Pfade angepasst (freigegeben 2026-07-20)
+- [x] Opik (evaluation, trial) — freigegeben 2026-07-20
+- [x] Promptfoo (evaluation, assess) — freigegeben 2026-07-20
+- [x] Inspect / UK AISI (evaluation, assess) — freigegeben 2026-07-20
 - [x] **Coding-/Harness-Tools als separate Einträge** (freigegeben 2026-07-19):
       Claude Code (adopt), OpenAI Codex (adopt), OpenCode (adopt), Antigravity (trial);
       Tag `harness` in Readme.md + CLAUDE.md aufgenommen
@@ -103,8 +108,13 @@ Mittlere Priorität (wesentliche Lücken):
 - [ ] Microsoft Agent Framework (frameworks)
 - [ ] Pydantic AI und/oder Mastra (frameworks)
 - [ ] OpenRouter (models-platforms)
-- [ ] Mistral La Plateforme / IONOS AI Model Hub (models-platforms, EU-Sovereignty)
+- [ ] **Mistral AI** (models-platforms, ggf. **trial**) — EU-Frontier-Anbieter/La Plateforme;
+      im Eintrag auch kurz die Tools erwähnen (Vibe Box etc. — vor dem Schreiben recherchieren)
+- [ ] IONOS AI Model Hub (models-platforms, EU-Sovereignty)
 - [ ] Google Vertex AI (models-platforms — dritter Hyperscaler fehlt)
+- [ ] **Text-to-SQL** (architecture-pattern) — neuer Artikel: was es kann (NL-Queries auf
+      strukturierte Daten), Best Practices (Schema-Kontext, Views/Semantic Layer, Read-only-Zugriff,
+      Validierung/Guardrails, Evaluation z. B. BIRD/Spider), Grenzen; vor dem Schreiben recherchieren
 - [ ] Code Execution / "Code Mode" für Agent-Tools (architecture-pattern)
 - [ ] Agent Memory als Pattern (architecture-pattern)
 

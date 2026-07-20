@@ -48,8 +48,8 @@
     },
     {
       "id": "evaluation",
-      "title": "Evaluation & Observability",
-      "description": "Covers tools and platforms for evaluating, testing, and optimizing AI models, including deployment frameworks for managing model lifecycles in production.",
+      "title": "Evaluation, Observability & Security",
+      "description": "Covers tools and platforms for evaluating, testing, observing and securing AI systems — functional evaluation, observability, red teaming and security scanning increasingly overlap.",
       "color": "#9966FF"
     },
     {
