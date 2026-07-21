@@ -15,7 +15,7 @@ The now-standard mental model for agent exfiltration risk. An agent is exfiltrat
 2. **Exposure to untrusted content** - web pages, incoming mails/issues/tickets, third-party tool results
 3. **An external communication channel** - HTTP requests, mail sending, writing to public locations
 
-Design rule: break at least one leg per agent. Examples:
+Design rule: **break at least one leg** per agent. Examples:
 - A research agent that reads the web should not hold private credentials.
 - An agent with database access should not be able to call arbitrary URLs.
 

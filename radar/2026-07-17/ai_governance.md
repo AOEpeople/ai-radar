@@ -10,7 +10,7 @@ As AI automation and agents move into production, governance shifts from a compl
 Four building blocks worth establishing:
 
 - **EU AI Act readiness as deployer**: role clarification, an AI inventory, transparency obligations.
-- **Agent governance**: identity, permissions, audit trails and explicit human-in-the-loop boundaries for agents that act (see [Harness Engineering](/architecture-pattern/harness_engineering/) and the [OWASP Agentic Top 10](/architecture-pattern/owasp_llm_top_10/)).
+- **Agent and Automation governance**: identity, permissions, audit trails and explicit human-in-the-loop boundaries for agents that act (see [Harness Engineering](/architecture-pattern/harness_engineering/) and the [OWASP Agentic Top 10](/architecture-pattern/owasp_llm_top_10/)).
 - **Policies for coding agents**: allowed tools/models, code provenance, review duties, secrets handling.
 - **Shadow-AI management**: governed enablement instead of prohibition - unmanaged AI use is widespread and costly when it goes wrong.
 
