@@ -81,7 +81,7 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] `model_news_h2_25.md` — Trends-fokussiert, nach Playern gruppiert (freigegeben 2026-07-20)
 - [x] `model_news_h1_26.md` — dito (freigegeben 2026-07-20)
 - [x] Q1/Q2-25-Artikel per `featured: false` ausgeblendet (freigegeben 2026-07-20)
-- [ ] Neu: `model_news_h2_26.md` — laufend fortzuschreibender Artikel, Start mit Juli-Releases
+- [x] Neu: `model_news_h2_26.md` — laufender Artikel, Start mit Juli-Releases (freigegeben 2026-07-21)
 
 ## 4. Neue Einträge (Auswahl durch Daniel)
 
@@ -102,6 +102,9 @@ Mittlere Priorität (wesentliche Lücken):
 - [ ] **Microsoft Presidio** — als Eintrag aufnehmen (Vorschlag: Segment evaluation,
       Security-Aspekt; De-facto-Standard PII-Detection/De-Identification); danach Referenzen
       anpassen: `sensitive_data_scanning.md` verlinkt Presidio bisher nur extern
+- [ ] **Recherche Pseudonymisierungs-Tools** — was sollte man auf dem Radar haben, gibt es eine
+      führende Open-Source-Lösung? (Überschneidung mit Presidio prüfen: Anonymisierung vs.
+      reversible Pseudonymisierung, z. B. für RAG-/LLM-Pipelines mit Re-Identifikation)
 
 - [ ] Langfuse (evaluation, trial/adopt)
 - [ ] Agentische Coding-CLIs: Claude Code, Codex, Gemini CLI (tools)
