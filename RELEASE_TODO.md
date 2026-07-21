@@ -106,13 +106,18 @@ Mittlere Priorität (wesentliche Lücken):
       führende Open-Source-Lösung? (Überschneidung mit Presidio prüfen: Anonymisierung vs.
       reversible Pseudonymisierung, z. B. für RAG-/LLM-Pipelines mit Re-Identifikation)
 
-- [ ] Langfuse (evaluation, trial/adopt)
+- [x] Langfuse (evaluation, trial) — freigegeben 2026-07-21
+- [x] Docling (data-features, trial) — freigegeben 2026-07-21
+- [x] LiteLLM (tools, trial, mit Security-Caveat) — freigegeben 2026-07-21
+- [x] Presidio (evaluation, trial; inkl. reversible Pseudonymisierung/LLM-Guard) — freigegeben 2026-07-21
+- [x] Mistral AI (models-platforms, trial; Sovereign-Stack-Fokus) — freigegeben 2026-07-21
+- [x] Text-to-SQL (architecture-pattern, trial) — freigegeben 2026-07-21
 - [ ] Agentische Coding-CLIs: Claude Code, Codex, Gemini CLI (tools)
 - [ ] Docling (data-features)
 - [ ] OWASP Agentic Top 10 / Agentic Security (architecture-pattern)
 - [ ] Microsoft Agent Framework (frameworks)
 - [ ] Pydantic AI und/oder Mastra (frameworks)
-- [ ] OpenRouter (models-platforms)
+- [x] OpenRouter (models-platforms, trial) — freigegeben 2026-07-21
 - [ ] **Mistral AI** (models-platforms, ggf. **trial**) — EU-Frontier-Anbieter/La Plateforme;
       im Eintrag auch kurz die Tools erwähnen (Vibe Box etc. — vor dem Schreiben recherchieren)
 - [ ] IONOS AI Model Hub (models-platforms, EU-Sovereignty)
