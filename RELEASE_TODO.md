@@ -106,16 +106,25 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] Presidio (evaluation, trial; inkl. reversible Pseudonymisierung/LLM-Guard) — freigegeben 2026-07-21
 - [x] Mistral AI (models-platforms, trial; Sovereign-Stack-Fokus) — freigegeben 2026-07-21
 - [x] Text-to-SQL (architecture-pattern, trial) — freigegeben 2026-07-21
-- [ ] OWASP Agentic Top 10 / Agentic Security (architecture-pattern)
-- [ ] Microsoft Agent Framework (frameworks)
-- [ ] Pydantic AI und/oder Mastra (frameworks)
+- [x] ~~OWASP Agentic Top 10 als eigener Artikel~~ — abgelehnt 2026-07-21 (in owasp_llm_top_10 referenziert)
+- [x] ~~Microsoft Agent Framework~~ — abgelehnt 2026-07-21
+- [x] **Pydantic AI** (frameworks, trial) — Entwurf, wartet auf Freigabe
+- [ ] **Context Hub als Pattern** — recherchieren & Entwurf
+- [ ] **Open Knowledge Format (OKF)** (architecture-pattern) — recherchieren & Entwurf
+- [ ] **Automation & AI Governance** Artikel — Zuschnitt per Recherche klären
+- [ ] **CubeSandbox** (assess) + Recherche weiterer sinnvoller Sandbox-Lösungen
+- [ ] **PenTest mit AI**: pentagi (assess?) + Recherche ähnlicher/besserer Optionen
+- [ ] **CloakBrowser** (assess) — recherchieren & Entwurf
+- [ ] **headroom** (headroomlabs-ai, assess) — recherchieren & Entwurf
+- [ ] **graphify** (Graphify-Labs, assess) — recherchieren & Entwurf
 - [x] OpenRouter (models-platforms, trial) — freigegeben 2026-07-21
-- [ ] IONOS AI Model Hub (models-platforms, EU-Sovereignty)
-- [ ] Google Vertex AI (models-platforms — dritter Hyperscaler fehlt)
+- [x] ~~IONOS AI Model Hub~~ — abgelehnt 2026-07-21
+- [x] ~~Google Vertex AI~~ — abgelehnt 2026-07-21
 - [x] **Segment `data-features` umbenannt** zu "Data, Extraction, Storage & Context"
       (2026-07-21; Id bleibt, Beschreibung modernisiert, Tippfehler "theire" gefixt)
-- [ ] Code Execution / "Code Mode" für Agent-Tools (architecture-pattern)
-- [ ] Agent Memory als Pattern (architecture-pattern)
+- [x] **Code Execution / "Code Mode"** (architecture-pattern, trial) — Entwurf, wartet auf Freigabe
+- [x] ~~Agent Memory als Pattern~~ — gestrichen 2026-07-21 (abgedeckt durch Harness Engineering,
+      Context Engineering, mem0)
 
 ## 5. Abschluss
 
