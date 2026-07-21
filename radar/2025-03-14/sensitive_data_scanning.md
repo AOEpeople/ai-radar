@@ -12,7 +12,7 @@ Sensitive Data Scanning is a critical security practice for AI applications, foc
 ### Detection Capabilities
 
 The system should be able to detect various types of sensitive data: Personally Identifiable Information (PII), financial records, healthcare information, sensitive business data, credentials or API keys.
-Check tools like [Gitleaks](/security/gitleaks/).
+Check tools like [Gitleaks](/evaluation/gitleaks/).
 
 
 ### Protection Mechanisms
@@ -33,7 +33,7 @@ Sensitive data scanning plays a crucial role in several key areas of AI developm
 
 ## See also
 
-- [Gitleaks](/security/gitleaks/) for comprehensive code scanning
+- [Gitleaks](/evaluation/gitleaks/) for comprehensive code scanning
 - [OWASP LLM Top 10](/architecture-pattern/owasp_llm_top_10/) for security guidelines
 - [Garak](/evaluation/garak/) for LLM security testing
 - SIEM platforms for security monitoring

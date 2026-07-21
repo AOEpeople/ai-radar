@@ -12,9 +12,11 @@ The regulatory picture goes beyond the EU AI Act (fully applicable **2 August 20
 Building blocks worth establishing:
 
 - **Regulatory readiness as deployer**: role clarification, an AI inventory, transparency obligations, mapping which rules (AI Act, GDPR, NIS2, sector) apply to which system.
-- **Agent and automation governance**: identity, permissions, audit trails and explicit human-in-the-loop boundaries for agents that act (see [Harness Engineering](/architecture-pattern/harness_engineering/) and the [OWASP Agentic Top 10](/architecture-pattern/owasp_llm_top_10/)).
+- **Agent and automation governance**: lifecycle processes, identity, permissions, audit trails and explicit human-in-the-loop boundaries for agents that act (see [Harness Engineering](/architecture-pattern/harness_engineering/) and the [OWASP Agentic Top 10](/architecture-pattern/owasp_llm_top_10/)).
 - **Policies for coding agents**: allowed tools/models, code provenance, review duties, secrets handling.
 - **Shadow-AI management**: governed enablement instead of prohibition - unmanaged AI use is widespread and costly when it goes wrong.
 - **Measure and prove the value of automation**: track adoption, time saved, quality and cost so automation is justified by evidence - governance is not an end in itself.
 
 Established reference frameworks are **ISO/IEC 42001** (certifiable AI management system) and the **NIST AI RMF** (voluntary, risk-based); agent-specific runtime governance (identity/authorization standards) is emerging but not yet standardized.
+
+AOE helps enterprise establishing a "living governance"(https://www.aoe.com/en/landingpages/n8n-governance) 

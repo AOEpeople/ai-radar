@@ -23,7 +23,7 @@ Text-to-SQL lets users query structured data in natural language - the LLM gener
 
 ## Failure modes
 
-The most dangerous one: **plausibly wrong numbers** - the query runs without error, the result looks right, but a wrong join path or missing filter silently distorts it. Ambiguous metrics ("revenue", "active customer") without a semantic layer, schema hallucination on large schemas and complex multi-table joins remain the weak points. Evaluate with your own question set (see [Evaluation Driven AI Development](/evaluation/evaluation_driven_development/)); public benchmarks are BIRD and Spider 2.0.
+The most dangerous one: **plausibly wrong numbers** - the query runs without error, the result looks right, but a wrong join path or missing filter silently distorts it. Ambiguous metrics ("revenue", "active customer") without a semantic layer, schema hallucination on large schemas and complex multi-table joins remain the weak points. Evaluate with your own question set (see [Evaluation Driven AI Development](/architecture-pattern/evaluation_driven_development/)); public benchmarks are BIRD and Spider 2.0.
 
 ## Tools
 
