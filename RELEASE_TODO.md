@@ -118,7 +118,7 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] **Headroom** (tools, assess) — Entwurf
 - [x] **Graphify** (tools, assess) — Entwurf
 - [x] **SearXNG** (tools, trial) — Entwurf
-- [ ] **Graphiti** (Zep) (data-features, assess) — Entwurf, wartet auf Freigabe
+- [x] **Graphiti** (Zep) (data-features, assess) — freigegeben 2026-07-21 (Review-Edits übernommen)
 - [x] OpenRouter (models-platforms, trial) — freigegeben 2026-07-21
 - [x] ~~IONOS AI Model Hub~~ — abgelehnt 2026-07-21
 - [x] ~~Google Vertex AI~~ — abgelehnt 2026-07-21
@@ -130,6 +130,9 @@ Mittlere Priorität (wesentliche Lücken):
 
 ## 5. Abschluss
 
-- [ ] Alle Links im neuen Release prüfen (Build lokal: `npm run serve`)
-- [ ] Build-Check: CI schlägt fehl, wenn Workspace nach `npm run build` dirty ist
-- [ ] Commit & Push (erst nach Gesamt-Freigabe)
+- [x] Alle internen Links geprüft (2026-07-21): 2 Segment-Fehler im neuen Release gefixt
+      (`/evaluation/` → `/architecture-pattern/` für evaluation_driven_development), plus 6 seit
+      langem kaputte Links im Ordner 2025-03-14 repariert (mem0-, mcp-, gitleaks-,
+      context-engineering-, evaluation_driven_development-Pfade)
+- [x] Build-Check bestanden (2026-07-21): `npm run build` läuft durch, Workspace danach clean
+- [x] Push `v2` → origin + PR nach `main` (2026-07-21)

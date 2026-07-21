@@ -19,4 +19,4 @@ Building blocks worth establishing:
 
 Established reference frameworks are **ISO/IEC 42001** (certifiable AI management system) and the **NIST AI RMF** (voluntary, risk-based); agent-specific runtime governance (identity/authorization standards) is emerging but not yet standardized.
 
-AOE helps enterprise establishing a "living governance"(https://www.aoe.com/en/landingpages/n8n-governance) 
+At AOE we help enterprises establish a ["living governance"](https://www.aoe.com/en/landingpages/n8n-governance).
