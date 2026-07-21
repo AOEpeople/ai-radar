@@ -112,6 +112,8 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] OpenRouter (models-platforms, trial) — freigegeben 2026-07-21
 - [ ] IONOS AI Model Hub (models-platforms, EU-Sovereignty)
 - [ ] Google Vertex AI (models-platforms — dritter Hyperscaler fehlt)
+- [x] **Segment `data-features` umbenannt** zu "Data, Extraction, Storage & Context"
+      (2026-07-21; Id bleibt, Beschreibung modernisiert, Tippfehler "theire" gefixt)
 - [ ] Code Execution / "Code Mode" für Agent-Tools (architecture-pattern)
 - [ ] Agent Memory als Pattern (architecture-pattern)
 

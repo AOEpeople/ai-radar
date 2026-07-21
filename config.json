@@ -36,8 +36,8 @@
     },
     {
       "id": "data-features",
-      "title": "Data, Feature Extraction & Storage",
-      "description": "Covers the aspects of data collection, preparation, feature extraction and theire storage and handling.",
+      "title": "Data, Extraction, Storage & Context",
+      "description": "Covers data collection, extraction and preparation, their storage and retrieval — the building blocks that provide context to AI systems.",
       "color": "#FFCE56"
     },
     {
