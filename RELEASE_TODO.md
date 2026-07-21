@@ -109,14 +109,15 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] ~~OWASP Agentic Top 10 als eigener Artikel~~ — abgelehnt 2026-07-21 (in owasp_llm_top_10 referenziert)
 - [x] ~~Microsoft Agent Framework~~ — abgelehnt 2026-07-21
 - [x] **Pydantic AI** (frameworks, trial) — Entwurf, wartet auf Freigabe
-- [ ] **Context Hub als Pattern** — recherchieren & Entwurf
-- [ ] **Open Knowledge Format (OKF)** (architecture-pattern) — recherchieren & Entwurf
-- [ ] **Automation & AI Governance** Artikel — Zuschnitt per Recherche klären
-- [ ] **CubeSandbox** (assess) + Recherche weiterer sinnvoller Sandbox-Lösungen
-- [ ] **PenTest mit AI**: pentagi (assess?) + Recherche ähnlicher/besserer Optionen
-- [ ] **CloakBrowser** (assess) — recherchieren & Entwurf
-- [ ] **headroom** (headroomlabs-ai, assess) — recherchieren & Entwurf
-- [ ] **graphify** (Graphify-Labs, assess) — recherchieren & Entwurf
+- [x] **Context Hub** (architecture-pattern, trial) — Pattern-Entwurf (Daniel-Wunsch trotz nicht etabliertem Begriff)
+- [x] **Open Knowledge Format (OKF)** (architecture-pattern, assess) — Entwurf
+- [x] **Automation & AI Governance** (architecture-pattern, trial) — Entwurf
+- [x] **CubeSandbox** (tools, assess) + **E2B Sandbox** (tools, assess) — Entwürfe
+- [x] **AI-Assisted Penetration Testing** (evaluation, assess) — Sammelartikel: CAI, PentAGI, PentestGPT
+- [x] ~~CloakBrowser~~ — weggelassen 2026-07-21 (primär Detection-Evasion, Dual-Use, passt nicht)
+- [x] **Headroom** (tools, assess) — Entwurf
+- [x] **Graphify** (tools, assess) — Entwurf
+- [x] **SearXNG** (tools, trial) — Entwurf
 - [x] OpenRouter (models-platforms, trial) — freigegeben 2026-07-21
 - [x] ~~IONOS AI Model Hub~~ — abgelehnt 2026-07-21
 - [x] ~~Google Vertex AI~~ — abgelehnt 2026-07-21
