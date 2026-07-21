@@ -49,7 +49,7 @@ Hohe Priorität (faktisch falsch geworden):
 - [x] `langchain.md` — 1.0/1.x-Update (freigegeben 2026-07-19)
 - [x] `langgraph.md` — 1.0-Update (freigegeben 2026-07-19)
 - [x] `azure_openai.md` — ausgeblendet (`featured: false`), abgelöst durch neuen Eintrag
-      `microsoft_foundry.md` (Entwurf, wartet auf Freigabe)
+      `microsoft_foundry.md` (freigegeben 2026-07-19)
 - [x] `openweb_ui.md` — Lizenzabschnitt (freigegeben 2026-07-19)
 - [x] `gitleaks.md` — Feature-complete + Betterleaks-Verweis (freigegeben 2026-07-19)
 - [x] `stackit-model-serving.md` — GA, neuer Name, Links (freigegeben 2026-07-19)
@@ -63,10 +63,10 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] `smart_vector_db_usage.md` — Hybrid+Reranking Default, agentisches Retrieval (freigegeben 2026-07-19)
 - [x] ~~aws-bedrock, huggingface, ollama~~ — verworfen 2026-07-20: unsignifikant, alte Einträge bleiben
 - [x] `replicate.md` — Cloudflare-Übernahme + Roadmap-Risiko (freigegeben 2026-07-20)
-- [ ] `librechat.md` — ClickHouse-Übernahme, bleibt MIT (Eigentümerwechsel = entscheidungsrelevant)
+- [x] `librechat.md` — ClickHouse-Übernahme, bleibt MIT (freigegeben 2026-07-20)
 - [x] ~~n8n.md~~ — übersprungen 2026-07-20 (unsignifikant nach neuer Messlatte)
-- [ ] `multi_agent_system.md` — Framework-Liste ist irreführend geworden (AutoGen abgelöst, llama-agents tot)
-- [ ] `evaluation_driven_development.md` — verweist auf Legacy "LangChain Evaluation" (jetzt hold); Agent-Evals
+- [x] `multi_agent_system.md` — Framework-Liste korrigiert, Supervisor-Pattern (freigegeben 2026-07-20)
+- [x] `evaluation_driven_development.md` — Agent-Evals, Tool-Verweise korrigiert (freigegeben 2026-07-20)
 - [x] ~~prompt_engineering.md~~ — übersprungen 2026-07-20 (Grundlagen weiter gültig)
 - [x] `garak.md` — Agent-Breaker-Probe, NVIDIA-Repo-Link (freigegeben 2026-07-19)
 - [x] ~~phoenix.md~~ — übersprungen 2026-07-20 (unsignifikant nach neuer Messlatte)
@@ -96,15 +96,9 @@ Mittlere Priorität (wesentliche Lücken):
       Tag `harness` in Readme.md + CLAUDE.md aufgenommen
 - [x] **"Harness Engineering"** (architecture-pattern, trial) — inkl. Loops, Memory/Self-Improvement,
       HITL-Abschnitt (freigegeben & committet 2026-07-19)
-- [ ] **LiteLLM** (LLM-Proxy/-Gateway) — als Eintrag aufnehmen; Segment noch offen
-      (tools vs. models-platforms); danach Referenzen anpassen: `sensitive_data_scanning.md`
-      verlinkt LiteLLM bisher nur extern
-- [ ] **Microsoft Presidio** — als Eintrag aufnehmen (Vorschlag: Segment evaluation,
-      Security-Aspekt; De-facto-Standard PII-Detection/De-Identification); danach Referenzen
-      anpassen: `sensitive_data_scanning.md` verlinkt Presidio bisher nur extern
-- [ ] **Recherche Pseudonymisierungs-Tools** — was sollte man auf dem Radar haben, gibt es eine
-      führende Open-Source-Lösung? (Überschneidung mit Presidio prüfen: Anonymisierung vs.
-      reversible Pseudonymisierung, z. B. für RAG-/LLM-Pipelines mit Re-Identifikation)
+- [x] LiteLLM/Presidio-Referenzen in `sensitive_data_scanning.md` internalisiert (2026-07-21)
+- [x] Recherche Pseudonymisierung erledigt: kein klarer OSS-Leader — als Abschnitt im
+      Presidio-Eintrag umgesetzt (LLM-Guard als Referenz-Implementierung)
 
 - [x] Langfuse (evaluation, trial) — freigegeben 2026-07-21
 - [x] Docling (data-features, trial) — freigegeben 2026-07-21
@@ -112,19 +106,12 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] Presidio (evaluation, trial; inkl. reversible Pseudonymisierung/LLM-Guard) — freigegeben 2026-07-21
 - [x] Mistral AI (models-platforms, trial; Sovereign-Stack-Fokus) — freigegeben 2026-07-21
 - [x] Text-to-SQL (architecture-pattern, trial) — freigegeben 2026-07-21
-- [ ] Agentische Coding-CLIs: Claude Code, Codex, Gemini CLI (tools)
-- [ ] Docling (data-features)
 - [ ] OWASP Agentic Top 10 / Agentic Security (architecture-pattern)
 - [ ] Microsoft Agent Framework (frameworks)
 - [ ] Pydantic AI und/oder Mastra (frameworks)
 - [x] OpenRouter (models-platforms, trial) — freigegeben 2026-07-21
-- [ ] **Mistral AI** (models-platforms, ggf. **trial**) — EU-Frontier-Anbieter/La Plateforme;
-      im Eintrag auch kurz die Tools erwähnen (Vibe Box etc. — vor dem Schreiben recherchieren)
 - [ ] IONOS AI Model Hub (models-platforms, EU-Sovereignty)
 - [ ] Google Vertex AI (models-platforms — dritter Hyperscaler fehlt)
-- [ ] **Text-to-SQL** (architecture-pattern) — neuer Artikel: was es kann (NL-Queries auf
-      strukturierte Daten), Best Practices (Schema-Kontext, Views/Semantic Layer, Read-only-Zugriff,
-      Validierung/Guardrails, Evaluation z. B. BIRD/Spider), Grenzen; vor dem Schreiben recherchieren
 - [ ] Code Execution / "Code Mode" für Agent-Tools (architecture-pattern)
 - [ ] Agent Memory als Pattern (architecture-pattern)
 
