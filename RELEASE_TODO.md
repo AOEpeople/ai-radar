@@ -118,6 +118,7 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] **Headroom** (tools, assess) — Entwurf
 - [x] **Graphify** (tools, assess) — Entwurf
 - [x] **SearXNG** (tools, trial) — Entwurf
+- [ ] **Graphiti** (Zep) (data-features, assess) — Entwurf, wartet auf Freigabe
 - [x] OpenRouter (models-platforms, trial) — freigegeben 2026-07-21
 - [x] ~~IONOS AI Model Hub~~ — abgelehnt 2026-07-21
 - [x] ~~Google Vertex AI~~ — abgelehnt 2026-07-21
