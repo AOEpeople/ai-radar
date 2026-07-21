@@ -2,7 +2,7 @@
 title: "Code Execution / Code Mode"
 ring: trial
 segment: architecture-pattern
-tags: [patterns]
+tags: [patterns, harness]
 ---
 
 Code Execution ("Code Mode") is the pattern of letting an agent **write and run code** as its primary way of working, instead of emitting many individual tool calls or trying to solve a task in prose. Two overlapping uses:
