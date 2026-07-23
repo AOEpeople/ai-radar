@@ -127,6 +127,10 @@ Mittlere Priorität (wesentliche Lücken):
 - [x] **Code Execution / "Code Mode"** (architecture-pattern, trial) — Entwurf, wartet auf Freigabe
 - [x] ~~Agent Memory als Pattern~~ — gestrichen 2026-07-21 (abgedeckt durch Harness Engineering,
       Context Engineering, mem0)
+- [x] **Playwright MCP & CLI** (tools, trial) — freigegeben 2026-07-23
+      (Nachzügler: Gegenstück zu Browser Use)
+- [x] **pgvector** (data-features, trial) — freigegeben 2026-07-23, von Daniel gekürzt
+      (im Einsatz in Kundenprojekten; Ops-Argument vs. dedizierte Vector-DBs)
 
 ## 5. Abschluss
 
