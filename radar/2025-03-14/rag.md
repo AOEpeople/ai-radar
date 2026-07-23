@@ -49,5 +49,5 @@ This can be powerful - but the agentic layer is a significant increase in comple
 ## Related AI Radar articles:
 
 * [Do not use Naive RAG for Large Knowledge Bases](/architecture-pattern/naive_rag_for_large_kb/)
-* [Prompt Engineering](/architecture-pattern/prompt_engineering/) and [Context Engineering](/architecture-pattern/context_engineering/)
-* [Evaluation Based Development](/architecture-pattern/evaluation_based_development/) as basis methods
+* [Prompt Engineering](/architecture-pattern/prompt_engineering/) and [Context Engineering](/architecture-pattern/context-engineering/)
+* [Evaluation Based Development](/architecture-pattern/evaluation_driven_development/) as basis methods

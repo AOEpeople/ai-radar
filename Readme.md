@@ -17,6 +17,7 @@ New blips should be tagged. The following tags are currently established:
 * automation
 * chat
 * extraction
+* harness
 * benchmarking
 * evaluation
 * knowledge

@@ -9,7 +9,7 @@ LangChain Evaluation provides a robust framework for testing and evaluating AI a
 
 ## Related Topics
 
-- [Evaluation Driven AI Development](/evaluation/evaluation_based_development/)
+- [Evaluation Driven AI Development](/architecture-pattern/evaluation_driven_development/)
 
 ## Resources
 

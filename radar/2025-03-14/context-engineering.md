@@ -28,13 +28,13 @@ Additionally the models and theire APIs provide different cababilities for struc
 
 - **Window Management and Memory**: When interactions span long sessions (e.g., with agents), token budget becomes a key constraint. Techniques for managing long-term context include: sliding window approaches, context pruning, and summarization. 
 
-- **Memory for more context**: Some use cases require access to previous conversations or results. See [mem0: memory-optimized agent framework mom0](/tools/mem0/) for an example of advanced memory in practice.
+- **Memory for more context**: Some use cases require access to previous conversations or results. See [mem0: memory-optimized agent framework mom0](/frameworks/mem0/) for an example of advanced memory in practice.
 
 - **Test variation and measure impact:** Maintain evaluation sets to test and tune prompt and context effectiveness. Tools like [Ragas](/evaluation/ragas/) and [DeepEval](/evaluation/deepeval/) provide practical frameworks for evaluating and benchmarking LLM outputs.
 
 - **format matters**: How you present information matters. A concise summary is better than a raw data dump. A clear tool schema is better than a vague instruction.
 
-- **Proper Tool Design**: Supplying the LLM with well-designed tools and clear tool descriptions is as crucial as providing relevant information. Tool outputs and error responses should be descriptive and optimized for the model context. Also avoid adding tools dynamic during a "conversation". For a deeper dive, see [MCP protocol](/architecture-pattern/mcp/).
+- **Proper Tool Design**: Supplying the LLM with well-designed tools and clear tool descriptions is as crucial as providing relevant information. Tool outputs and error responses should be descriptive and optimized for the model context. Also avoid adding tools dynamic during a "conversation". For a deeper dive, see [MCP protocol](/architecture-pattern/mcp_model_context_protocol/).
 
 - **Own your prompt and own your context**: Don't "outsource" your prompt to framework black boxes. own your prompts and treat them as first-class code. Use templates if useful.
 

@@ -36,8 +36,8 @@
     },
     {
       "id": "data-features",
-      "title": "Data, Feature Extraction & Storage",
-      "description": "Covers the aspects of data collection, preparation, feature extraction and theire storage and handling.",
+      "title": "Data, Extraction, Storage & Context",
+      "description": "Covers data collection, extraction and preparation, their storage and retrieval — the building blocks that provide context to AI systems.",
       "color": "#FFCE56"
     },
     {
@@ -48,14 +48,14 @@
     },
     {
       "id": "evaluation",
-      "title": "Evaluation & Observability",
-      "description": "Covers tools and platforms for evaluating, testing, and optimizing AI models, including deployment frameworks for managing model lifecycles in production.",
+      "title": "Evaluation, Observability & Security",
+      "description": "Covers tools and platforms for evaluating, testing, observing and securing AI systems — functional evaluation, observability, red teaming and security scanning increasingly overlap.",
       "color": "#9966FF"
     },
     {
       "id": "tools",
-      "title": "Other Tools",
-      "description": "Includes utilities and tools that do not fit into one category. For example overarching lowcode or AI Workflow tools.",
+      "title": "Tools & Coding Agents",
+      "description": "Overarching utilities and tools — including AI workflow tools, coding agents and harnesses.",
       "color": "#FF9F40"
     }
   ],
